@@ -41,9 +41,9 @@ class TopNWordMoversEmbedder(BaseEstimator, TransformerMixin):
         Tool for Embedding character strings using the TopN Word Movers Distance algorithm.
 
         Algorithm:
-        - calculates Word2Vec embeddings for phrases (ngrams of word's letters)
-        - picks top n (embed_v_len) most common names
-        - embeds name as a vector of Words Movers Distance values between the name and top n most common names        
+        - Calculate Word2Vec embeddings for phrases (ngrams of the word's letters).
+        - Select the top n most common surnames in the corpus.
+        - Embed each surname as a vector of Word Movers Distance values between the surname and the top n most common surnames.  
         """
         
         super().__init__()
