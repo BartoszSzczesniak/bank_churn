@@ -1,6 +1,7 @@
 data/*
 output/*
 models/*
-notes.*
+utils/*
+notes[._]*
 catboost_info/
 __pycache__
